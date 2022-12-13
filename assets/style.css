@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Noto Serif JP', serif;
+}
+
+body{
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+    min-height:100vh;
+}
+
+.asagi{
+    padding-top:10vh;
+}
+
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div2{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.btn{
+    width:10%;
+    height:8vh;
+    background-color:transparent;
+    color: red;
+    border:3px solid black;
+    font-size:4vh;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btn2{
+    width:10%;
+    height:8vh;
+    background-color:transparent;
+    color:black;
+    border:3px solid red;
+    font-size:4.5vh;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: rgb(44,34,195);
+    background: linear-gradient(3deg, rgba(44,34,195,1) 0%, rgba(253,45,45,1) 100%);
+    color: black;
+    border:3px solid black;
+    transition:1s;
+}
+
+.button2:hover{
+    background: rgb(44,34,195);
+    background: linear-gradient(3deg, rgba(44,34,195,1) 0%, rgba(253,45,45,1) 100%);
+    color: black;
+    border:3px solid black;
+    transition:1s;
+}
